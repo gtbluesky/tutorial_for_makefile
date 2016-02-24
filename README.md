@@ -2149,7 +2149,7 @@ make的参数"-r"或"-no-builtin-rules"也会使用得默认的后缀列表为�
 这个不是一个命令，而一个目标和依赖的定义。一般来说，这种用法基本上就是为了"ar"命令来服务的。如：
 
     foolib(hack.o) : hack.o
-            ar cr foolib hack.o
+        ar cr foolib hack.o
 
 如果要指定多个member，那就以空格分开，如：
 
